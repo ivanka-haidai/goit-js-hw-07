@@ -13,7 +13,8 @@ function handleFormSubmit(e) {
     data.email = emailValue;
     data.password = passwordValue;
     console.log(data);
+    e.target.reset();
   }
 
-  e.target.reset();
+  
 }
